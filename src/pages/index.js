@@ -119,7 +119,8 @@ const IndexPage = () => (
                   <i className="fa fa-chevron-right fa-2x" />
                 </div>
                 <p>
-                  View Instagrams taken within 1/2 mile of (43.0839, -77.6745).
+                  Track your stats for Islands of Nyne and compare yourself
+                  against others.
                 </p>
               </div>
             </div>
