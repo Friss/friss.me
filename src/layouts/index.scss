@@ -1,0 +1,90 @@
+$fa-font-path: '../../node_modules/font-awesome/fonts';
+@import '../../node_modules/font-awesome/scss/font-awesome.scss';
+
+.is-active .nav-item {
+  justify-content: center;
+}
+
+.scroll-down {
+  position: absolute;
+  opacity: 0.75;
+  animation: arrow 2s infinite;
+  bottom: 0px;
+}
+
+.background-image {
+  background-image: url(../imgs/boston3.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 63, 96, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.blog-background-image {
+  background-image: url(../imgs/subway.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.blog-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.me {
+  border-radius: 50%;
+}
+
+.is-align-items-center {
+  align-items: center;
+}
+
+.projects {
+  color: #fff;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 153, 150, 1) 0%,
+    rgba(0, 100, 166, 1) 100%
+  );
+}
+
+.projects .title,
+.projects .subtitle {
+  color: #fff;
+}
+
+.projects-row {
+  margin-top: 50px;
+}
+
+.project-title {
+  justify-content: space-between;
+  display: flex;
+}
+
+.project-title .fa {
+  margin-right: 20px;
+}
+
+@keyframes arrow {
+  0% {
+    bottom: -20px;
+  }
+  50% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: -20px;
+  }
+}
